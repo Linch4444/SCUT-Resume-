@@ -1,0 +1,98 @@
+% !TeX TS-program = xelatex
+
+\documentclass{resume}
+\ResumeName{张明}
+
+% 如果想插入照片，请使用以下两个库。
+ \usepackage{graphicx}
+ \usepackage{tikz}
+
+\begin{document}
+
+\ResumeContacts
+{
+ 应届生             ,
+ 月内到岗             
+  \\[4pt] 138-XXXX-XXXX（微信同）,
+  \ResumeUrl{mailto:example@email.com}{example@email.com}\footnote{下划线内容包含超链接。},%
+  \ResumeUrl{https://github.com/username}{https://github.com/Linch4444} ,
+}
+
+% 如果想插入照片，请在下面代码添加。但是默认不推荐插入头像，因为这不是简历的重点。
+% 如果默认的照片插入格式不能满足你的需求，你可以尝试调整照片的大小，或者使用其他的插入照片的方法。
+% 不然，也可以先渲染 PDF 简历，然后用其他工具在 PDF 上叠加照片。
+%
+% \begin{tikzpicture}[remember picture, overlay]
+%   \node [anchor=north east, inner sep=1cm]  at (current page.north east) 
+%      {\includegraphics[width=2cm]{photo.png}};%添加个人头像，头像文件需要放在同目录下
+% \end{tikzpicture}
+%
+% 校徽示例（可选）
+% \begin{tikzpicture}[remember picture, overlay]
+%   \node [anchor=north west, inner sep=1cm]  at (current page.north west) 
+%      {\includegraphics[width=6.4cm]{university_logo.png}};%添加校徽
+% \end{tikzpicture}
+
+\ResumeTitle
+%以上是简历标题行，经历往下写：
+
+\section{教育经历}
+\ResumeItem
+{XX大学}      [工业工程 | 管理学学士]          [2023.09—2027.06]
+
+\textbf{GPA: 3.52/4.0}
+
+\textbf{主修课程：}运筹学、数据库；电工学、数字电路；系统仿真、人因工程；有机化学、药理学；计量经济学、财务管理
+
+\section[技术能力]{技术能力}
+\begin{itemize}
+  \item \textbf{编程语言}: 常用 Python, SQL 进行数据分析；熟悉 HTML5, CSS, JavaScript 等前端技术
+  \item \textbf{工作流}: SQL, Python, Linux, Shell, Vim, Git, GitHub
+  \item \textbf{系统工程}: 使用 Arena 进行系统仿真排队论模拟，使用 CATIA、Fusion 进行人因工程建模
+  \item \textbf{其他}: 熟练使用 Zotero 和 LaTeX 阅读和撰写英文论文；熟悉视频剪辑工具；了解嵌入式系统开发
+\end{itemize}
+
+\section{项目经历}
+\ResumeItem{基于人因工程的充电桩排队论需求分析和课程设计}[课程小组长]
+\begin{itemize}
+  \item \textbf{任务|运用排队论原理，对校园充电桩进行建模分析 }\\收集校园充电桩使用数据，通过 Arena 仿真分析快充桩与慢充桩比例失衡导致的排队瓶颈问题，量化评估不同配置下的排队时间、设备利用率等指标，并撰写分析报告。
+  \item \textbf{成果|基于人因工程学原则，对快充桩进行重新设计 }\\根据仿真结果，建议增加快充桩数量。使用 Fusion 360 优化电缆缠绕方式、增设充电完成指示灯等人性化设计，提升使用效率与安全性。相关成果被评为优秀课程设计。
+\end{itemize}
+
+\ResumeItem{APMCM亚太杯数学建模：关税政策对全球供应链的影响评估}[建模手/论文手]
+\begin{itemize}
+  \item \textbf{任务|构建数学模型量化关税政策的影响 }\\分析贸易转移效应、供应链重构动态、安全与效率权衡，预测政策短期与中长期效果。在缺乏直接数据情况下，创新性地使用历史数据作为基准进行模拟分析。
+  \item \textbf{成果|论文获APMCM亚太杯数学建模竞赛奖项 }\\集成灰色关联分析与Armington替代模型，建立贸易转移效应量化框架。设计反事实预测框架，揭示关税收入动态轨迹。结合熵权TOPSIS和成本效益分析，建立综合评价体系。
+\end{itemize}
+
+\section{科研经历}
+\ResumeItem{SRP综述论文写作：基因编辑技术前沿综述}[组员]         [2024.09 — 2024.11]
+\begin{itemize}
+  \item \textbf{任务|负责基因编辑技术前沿文献的综述 }\\检索、筛选并分析中英文相关文献，提取关键信息并分类整理，构建技术发展脉络。建立技术应用场景、实验方法、临床进展三个维度的评价体系，运用文献管理工具进行整理。
+  \item \textbf{成果|完成高质量综述论文并获奖 }\\系统梳理了基因编辑技术在生物医药领域的应用进展，论文获校文献阅读大赛奖项，显著提升了科研文献分析能力和团队协作效率。
+\end{itemize}
+
+\section{社团/组织经历}
+\ResumeItem{学生会学术讲座活动}[协办] [2024.03 — 2024.06]
+\begin{itemize}
+  \item \textbf{任务|负责策划并支持校学术系列讲座开展，}\\完成活动前人员流动规划与岗位分工设计，建立包含签到引导、技术支持、现场协调的多职能团队架构，撰写标准化总结报告模板并提出流程优化建议。
+  \item \textbf{成果|成功协办超100人规模学术讲座，}\\运用Excel建立人员信息管理系统，实现100+参与人员信息统计与岗位职责可视化分配，活动满意度高，个人多任务协调与团队管理能力显著增强。
+\end{itemize}
+
+\section{个人总结}
+\begin{itemize}
+
+  
+  \item \textbf{拥有志愿服务经历，}在支教活动中负责多年龄段学生的学业辅导与生活管理，深入了解学生家庭背景，运用人本主义教育理念改善师生互动。基于实地调研撰写教育现状分析报告，获暑期实践优秀论文奖项，强化了社会责任感和人文关怀。
+\end{itemize}
+
+\section{竞赛获奖/项目作品}
+\begin{itemize}
+    \item 第X届中国软件杯大学生软件设计大赛全国X等奖 (\url{http://www.example.com/}), 20XX年X月
+    \item 中国机器人大赛创意设计大赛全国X等奖 (\url{http://www.example.com/}), 20XX年X月
+    \item 第X届XX大学"XX杯"学生课外科技作品竞赛X等奖, 20XX年X月
+    \item 安全系统可视化组件, \url{https://example.com/project/}
+    \item 个人博客: \url{https://example.com/}, 更多作品见 \url{https://github.com/username}
+\end{itemize}
+
+\end{document}
