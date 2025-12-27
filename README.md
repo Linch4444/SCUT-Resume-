@@ -34,7 +34,7 @@
 
 ## 致谢
 
-该项目主要代码来源于 [[hijiangtao/resume](https://github.com/hijiangtao/resume](https://github.com/fky2015/resume-ng)) ，谢谢大佬！
+该项目主要代码来源于 [hijiangtao/resume](https://github.com/hijiangtao/resume](https://github.com/fky2015/resume-ng)) ，谢谢大佬！
 基于“提高一页简历中的信息密度”这一排版思路而进一步改进，增加比赛、实践、社团等项目标题
 再次感谢！
 
