@@ -44,5 +44,11 @@
 基于“提高一页简历中的信息密度”这一排版思路而进一步改进，增加比赛、实践、社团等项目标题
 再次感谢！
 
+## 最终效果
+
+<img width="632" height="890" alt="0ca31a932c1ab4a772ac9acbb18499ee" src="https://github.com/user-attachments/assets/900963d9-b2bf-4250-9140-b1cbd7c41099" />
+
+## 友情链接
+<img width="1280" height="3041" alt="e524c9215df521432f287bd6d5f3e769" src="https://github.com/user-attachments/assets/ce3387a6-d24c-4409-bd6d-bf39958c44cf" />
 
 
