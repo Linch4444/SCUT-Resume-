@@ -4,6 +4,7 @@
 - 通过调整排版提高简历的信息密度。
 - 提供超链接、脚注、非重点内容的排版示例。
 - (🖼️)支持插入校徽与头像（请看代码注释）。
+<img width="1330" height="301" alt="xiaohui" src="https://github.com/user-attachments/assets/fee2719b-4a88-4592-9a95-d3866c30bb11" />
 
 
 ## 使用方法
