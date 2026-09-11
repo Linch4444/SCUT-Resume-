@@ -5,6 +5,8 @@
 - 提供超链接、脚注、非重点内容的排版示例。
 - (🖼️)支持插入校徽与头像（请看代码注释）。
 <img width="1330" height="301" alt="xiaohui" src="https://github.com/user-attachments/assets/fee2719b-4a88-4592-9a95-d3866c30bb11" />
+<img width="1067" height="249" alt="标准字中文校名全称模式" src="https://github.com/user-attachments/assets/ec61d067-a005-49ba-a8e1-5fc158ccc1be" />
+<img width="627" height="188" alt="zhongda" src="https://github.com/user-attachments/assets/578d55bb-4323-47dd-80b7-82f18201e53c" />
 
 
 ## 使用方法
