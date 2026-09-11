@@ -3,6 +3,12 @@
 本模板的特性包括：
 - 通过调整排版提高简历的信息密度。
 - 提供超链接、脚注、非重点内容的排版示例。
+
+## 最终效果
+
+
+[preview.pdf](https://github.com/user-attachments/files/32107403/preview.pdf)
+
 - (🖼️)支持插入校徽与头像（请看代码注释，已包含华南理工、中山、华南农业、华南师范、暨南大学）。
 <img width="1330" height="301" alt="xiaohui" src="https://github.com/user-attachments/assets/fee2719b-4a88-4592-9a95-d3866c30bb11" />
 <img width="1067" height="249" alt="标准字中文校名全称模式" src="https://github.com/user-attachments/assets/ec61d067-a005-49ba-a8e1-5fc158ccc1be" />
@@ -44,11 +50,11 @@
 基于“提高一页简历中的信息密度”这一排版思路而进一步改进，增加比赛、实践、社团等项目标题
 再次感谢！
 
-## 最终效果
 
-<img width="632" height="890" alt="0ca31a932c1ab4a772ac9acbb18499ee" src="https://github.com/user-attachments/assets/900963d9-b2bf-4250-9140-b1cbd7c41099" />
 
 ## 友情链接
+欢迎加入华工微博协会！
+
 <img width="1280" height="3041" alt="e524c9215df521432f287bd6d5f3e769" src="https://github.com/user-attachments/assets/ce3387a6-d24c-4409-bd6d-bf39958c44cf" />
 
 
