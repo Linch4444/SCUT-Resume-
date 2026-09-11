@@ -7,6 +7,9 @@
 <img width="1330" height="301" alt="xiaohui" src="https://github.com/user-attachments/assets/fee2719b-4a88-4592-9a95-d3866c30bb11" />
 <img width="1067" height="249" alt="标准字中文校名全称模式" src="https://github.com/user-attachments/assets/ec61d067-a005-49ba-a8e1-5fc158ccc1be" />
 <img width="627" height="188" alt="zhongda" src="https://github.com/user-attachments/assets/578d55bb-4323-47dd-80b7-82f18201e53c" />
+<img width="1100" height="794" alt="SCNU xiaohui" src="https://github.com/user-attachments/assets/f224cd26-a825-4b1e-a0f5-eb6330228d5d" />
+<img width="1050" height="758" alt="Jinan" src="https://github.com/user-attachments/assets/f3882412-299c-45f7-a5a4-f203bdc6cd2b" />
+
 
 
 ## 使用方法
