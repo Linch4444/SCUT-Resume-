@@ -1,0 +1,135 @@
+% !TeX TS-program = xelatex
+
+% =====================================================================
+% 华南理工大学 通用简历模板
+% 用法：全文所有 X 均为待填占位符，投递前请逐一替换为真实数据。
+%       不留空、不留 X，面试官一眼就能看出没改。
+% 编译：xelatex main.tex 跑两遍（装饰用 remember picture 叠加定位）
+% =====================================================================
+
+\documentclass{resume}
+\ResumeName{（姓名）}
+
+% 如果想插入照片，请使用以下两个库。
+ \usepackage{graphicx}
+ \usepackage{tikz}
+
+\begin{document}
+
+\ResumeContacts
+{
+ 20XX 届应届生             ,
+ 求职意向：AI 产品 / 战略咨询 / 智能制造 IE / 投资银行
+ \\[2pt] （手机号）,
+  \ResumeUrl{mailto:（邮箱）}{（邮箱）},%
+  \ResumeUrl{https://github.com/Linch4444/SCUT-Resume-/tree/main}{github.com/Linch4444} ,
+ % \ResumeUrl{https://github.com/fky2015}{github.com/fky2015}
+ %简历里有不需要的语句请用百分号进行注释
+}
+
+% 如果想插入照片，请在下面代码添加。但是默认不推荐插入头像，因为这不是简历的重点。
+% 如果默认的照片插入格式不能满足你的需求，你可以尝试调整照片的大小，或者使用其他的插入照片的方法。
+% 不然，也可以先渲染 PDF 简历，然后用其他工具在 PDF 上叠加照片。
+%
+
+\begin{tikzpicture}[remember picture, overlay]
+   \node [anchor=north west, inner sep=0.9cm]  at (current page.north west) 
+      {\includegraphics[width=5.8cm]{assets/xiaohui.png}};%添加校徽，设置大小为5.8cm
+\end{tikzpicture}
+% 右下角牌坊装饰（透明底线稿，低透明度做背景纹样，不遮挡正文）
+% 可调三个参数：width 大小、opacity 深浅（0=全透明 1=实色）、inner sep 距页边距离
+\begin{tikzpicture}[remember picture, overlay]
+  \node [anchor=south east, inner sep=0.4cm, opacity=0.18] at (current page.south east)
+     {\includegraphics[width=5cm, height=3.4cm]{assets/shipai.png}};
+\end{tikzpicture}
+% 校训页脚已移除（博学 · 慎思 · 笃行为华工专属，跨校通用性差）。
+% 如需恢复，取消下面整段注释即可；注意 height 不要超过 1.35cm，否则会压到正文。
+% \begin{tikzpicture}[remember picture, overlay]
+%   \node [anchor=south, inner sep=0, opacity=0.85, yshift=0.02cm] at (current page.south)
+%      {\includegraphics[height=1.35cm]{assets/boxue.png}\hspace{4cm}%
+%       \includegraphics[height=1.35cm]{assets/shensi.png}\hspace{4cm}%
+%       \includegraphics[height=1.35cm]{assets/duxing.png}};
+% \end{tikzpicture}
+ \begin{tikzpicture}[remember picture, overlay]
+   \node [anchor=north east, inner sep=0.9cm]  at (current page.north east) 
+      {\includegraphics[width=2.3cm]{assets/touxiang.jpg}};%添加个人头像，头像文件需要放在 assets 目录下且命名为 touxiang.jpg
+ \end{tikzpicture}
+
+
+\ResumeTitle
+%以上是简历标题行，经历往下写：
+
+
+
+\section{教育经历}
+\ResumeItem{华南理工大学}      [工业工程       \indent 学士/硕士       ]           [202X.09—202X.06]
+\textbf{GPA: 3.8/4.0（专业前 5\%）\indent 主修课程：}运筹学、随机过程、生产系统建模、供应链管理、质量工程、数据挖掘、人因工程
+
+
+\section{实习经历}
+
+\ResumeItem{京东集团 | JoyAI / 搜推 AI}[AI 产品实习生][202X.0X—202X.0X]
+
+\begin{itemize}
+    \item \textbf{产品落地}：拆解大模型导购与 Agent 产品需求，输出 PRD 与高保真原型，协同算法、工程、运营推动 3 个功能上线，点击转化率 / 应答准确率提升 12\%–18\%。
+    \item \textbf{评测体系}：搭建 AI 评测 SOP，以 Prompt 工程 + RAG 知识库维护 + 人工 case 抽检，将 Agent 应答准确率由 82\% 提升至 89\%，输出评测看板驱动版本迭代。
+    \item \textbf{数据驱动}：以 SQL / Python 取数，设计 A/B 实验并做显著性检验，定位搜索推荐漏斗瓶颈，推动重排策略迭代，UV 价值提升 9\%。
+   \end{itemize}
+
+\ResumeItem{中信证券 | 投资银行部}[投行实习生（IPO / 并购）][202X.0X—202X.0X]
+
+\begin{itemize}
+    \item \textbf{尽职调查}：参与科创板智能制造企业 IPO 尽调，独立整理底稿 300+ 份，访谈高管与技术负责人 15+ 次，完成业务与技术、关联方核查章节初稿。
+    \item \textbf{估值建模}：以 Wind 清洗 5 年行业数据，搭建 DCF + 可比公司估值模型并做敏感性分析，支撑发行区间测算，定价偏离度 <5\%。
+  \end{itemize}
+
+\ResumeItem{小鹏汽车 | 制造系统 / 总装 IE}[工业工程实习生][202X.0X—202X.0X]
+
+\begin{itemize}
+    \item \textbf{线平衡改善}：以 VSM 识别总装线 3 处瓶颈，重排工位并做 SMED 换线优化，线平衡率 75\%→90\%，单班产能 +22\%。
+    \item \textbf{标准工时}：以 MOD 视频测时建立标准工时库，编写 SOP 12 份，新人上岗周期缩短 3 天；用 Minitab 做 SPC，关键工序 CPK 由 1.15 提升至 1.33。
+    \item \textbf{产能仿真}：用 FlexSim 离散仿真评估产能爬坡方案，定位拧紧工位瓶颈，建议增设备用工位，投资回收期 <22 个月。
+    \item \textbf{物流优化}：以 SLP 重划物料路径，搬运距离减少 30\%，WIP 减少 40\%，年节约人力 / 返工成本 ¥XX 万。
+\end{itemize}
+
+
+\section{科研经历}
+
+\ResumeItem{数据驱动的人机协作装配线动态调度与质量反馈控制}[强化学习 / 随机动态规划][在投]
+{\zihao{5} 拟投 IISE Transactions（Data Science / Quality and Reliability），状态：working paper。}
+
+\begin{itemize}
+  \item \textbf{方法}：构建强化学习 + 随机动态规划 + SPC 反馈环的人机协作工位调度模型，解决动态扰动下的工位分配与质量联动问题。
+  \item \textbf{结果}：核心建模与算法实现（一作 / 共同一作，填真实）；在 X 家电部件产线数据上，OEE 提升 X\%，不良率下降 X\%，较基线启发式提升 X\%。
+\end{itemize}
+
+\ResumeItem{需求不确定下新能源汽车供应链契约与库存鲁棒优化}[两阶段鲁棒优化][在投]
+{\zihao{5} 拟投供应链方向焦点刊 / 国内顶会，状态：working paper。}
+
+\begin{itemize}
+  \item \textbf{方法}：两阶段鲁棒优化 + 情景树建模 + 算法加速（Benders / C\&CG）；较现货市场均衡策略降低呆滞库存 X\%，履约率提升 X\%。
+\end{itemize}
+
+
+\section{项目与竞赛}
+
+\ResumeItem{全国大学生工业工程创新应用案例大赛}[队长 / 建模手][202X.XX]
+{\zihao{5} 某仓配中心拣选效率优化，获国奖（填真实，国一 / 国二）。}
+
+\begin{itemize}
+  \item \textbf{方案}：以 VSM 定位浪费环节，用 FlexSim 仿真验证布局与波次策略调整，拣选效率提升 25\%。
+\end{itemize}
+
+\ResumeItem{京东物流风控 AI | 异常订单识别 \quad\textperiodcentered\quad 中信并购模拟（LBO）}[算法开发 / 队长][202X.XX]
+{\zihao{5} 前者以 XGBoost + 规则引擎做异常订单识别（AUC 0.93，误杀率降低 40\%）；后者搭三表联动 + LBO 模型，IRR 22\%，获金融建模赛特等奖（填真实）。}
+
+
+\section{技能与证书}
+\begin{itemize}
+\item \textbf{编程与数据}:  Python（Pandas / Scikit-learn / PyTorch 基础）、SQL、MATLAB、R
+\item \textbf{IE 与仿真}:  FlexSim、Arena、Minitab、SPSS、AutoCAD、SolidWorks；VSM、SMED、6$\sigma$
+\item \textbf{金融}:  Wind、Excel 财务建模、DCF / LBO、可比公司估值
+\item \textbf{产品}:  Axure、Figma、PRD 撰写、A/B 实验设计、Prompt / RAG / Agent 基础
+\item \textbf{语言与证书}:  CET-6、雅思（可选）；六西格玛绿带、PMP（可选）
+\end{itemize}
+\end{document}
