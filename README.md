@@ -1,5 +1,5 @@
 # SCUT-Resume-
-这是为华南理工工业工程IE同学求职准备的Latex简历，只需你准备好WorkBuddy或者其他AI工具后，提出你的要求修改main.tex，就能够修改其中代码输出一份工整的简历啦！
+这最开始是为华南理工工业工程IE同学求职准备的Latex简历，只需你准备好WorkBuddy或者其他AI工具后，提出你的要求修改main.tex，就能够修改其中代码输出一份工整的简历啦！
 本模板的特性包括：
 - 通过调整排版提高简历的信息密度。
 - 提供超链接、脚注、非重点内容的排版示例。
@@ -10,7 +10,7 @@
 
 [preview.pdf](https://github.com/user-attachments/files/32107403/preview.pdf)
 
-- (🖼️)支持插入校徽与头像（请看代码注释，已包含华南理工、中山、华南农业、华南师范、暨南大学）。
+- (🖼️)更新！！！现在支持插入校徽与头像（请看代码注释，已包含华南理工、中山、华南农业、华南师范、暨南大学）。
 <img width="100" height="30" alt="xiaohui" src="https://github.com/user-attachments/assets/fee2719b-4a88-4592-9a95-d3866c30bb11" />
 <img width="100" height="30" alt="标准字中文校名全称模式" src="https://github.com/user-attachments/assets/ec61d067-a005-49ba-a8e1-5fc158ccc1be" />
 <img width="100" height="30" alt="zhongda" src="https://github.com/user-attachments/assets/578d55bb-4323-47dd-80b7-82f18201e53c" />
